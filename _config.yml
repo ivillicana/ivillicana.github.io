@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: villicana.i@gmail.com
 copyright_name: ivillicana
 description: > # this means to ignore newlines until "baseurl:"
-  A web developer's journey
+  A software developer's journey
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ivillicana
