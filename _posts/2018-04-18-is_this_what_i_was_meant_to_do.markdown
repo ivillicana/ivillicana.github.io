@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "**Is this what I was meant to do?**"
-date:       2018-04-19 03:48:16 +0000
+title:      "Is this what I was meant to do?"
+date:       2018-04-18 23:48:16 -0400
 permalink:  is_this_what_i_was_meant_to_do
 ---
 
