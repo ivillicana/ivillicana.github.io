@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "'Hello, it's me...': The Billboard Hot 100 CLI"
-date:       2018-06-14 22:41:41 +0000
+date:       2018-06-14 18:41:41 -0400
 permalink:  hello_its_me_the_billboard_hot_100_cli
 ---
 
