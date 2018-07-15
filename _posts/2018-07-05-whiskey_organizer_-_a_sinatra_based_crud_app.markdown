@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Whiskey Organizer - A Sinatra based CRUD app"
-date:       2018-07-05 19:09:05 +0000
+date:       2018-07-05 15:09:06 -0400
 permalink:  whiskey_organizer_-_a_sinatra_based_crud_app
 ---
 
@@ -18,7 +18,7 @@ But at least now I knew that I wanted three models, represented by three respect
 
 ### Decision #2 – Database Associations
 
-The ActiveRecord library was used in this application for object-relational mapping. This function depends on proper associations between various models and the database. Again, I based these associations on a real-world collection of whiskey items. So, a single User has many Items and, through these items, has many whiskeys. The reverse of this logic is also true. On the other hand, a single Item belongs to a single User as well as to a single Whiskey. Because I did not have a “has many” to “has many” relationship, no join table was needed in the database.
+The ActiveRecord library was used in this application for object-relational mapping. This function depends on proper associations between various models and the database. Again, I based these associations on a real-world collection of whiskey items. So, a single User has many Items and, through these items, has many whiskeys. The reverse of this logic is also true. On the other hand, a single Item belongs to a single User as well as to a single Whiskey. Because I did not have a “has many” to “has many” relationship, no independent join table was needed in the database; the items table wa serving this purpose.
 
 ![DatabaseAssociations)](https://i.imgur.com/BSa8D2rl.png)
 
