@@ -1,11 +1,10 @@
 ---
 layout: post
-title:      "Coupon Manager"
-date:       2018-08-01 18:51:06 +0000
+title:      "Coupon Manager - Rails Portfolio Project"
+date:       2018-08-01 14:51:06 -0400
 permalink:  coupon_manager
 ---
 
-## Ruby on Rails Portfolio Project
 
 Coupon Manager is a web-based application built on the Ruby on Rails framework. It allows users to view coupons to stores submitted by others. A user can also save single coupons to their profile for easy access. Using the powerful Ruby on Rails framework allowed me to implement new features to this application and to improve other features compared Sinatra.
 
