@@ -22,7 +22,7 @@ The code above states that once the document or DOM is loaded and ready, the cod
 
 Turbolinks bypasses this whole process. Other than the initial page load, any subsequent site navigation will not result in full page loads, only changes. What this means is, using the same example as before, the script may execute before the DOM is ready, before the `$('#element')` exists, and therefore, will not properly attach the event listener. And our site functionality is kaput!
 
-How then can we take advantage of Turbolink's features without breaking down our site? When Turbolink takes over after navigating through our website, it fires various events. One of these events is `turbolinks:load`, which occurs not only upon initial page load, but also upon any subsequent navigation. We can tweak our code the following way:
+How then can we take advantage of Turbolinks' features without breaking down our site? When Turbolink takes over after navigating through our website, it fires various events. One of these events is `turbolinks:load`, which occurs not only upon initial page load, but also upon any subsequent navigation. We can tweak our code the following way:
 ```javascript
 $(document).on('turbolinks:load', function() {
   $('#element').on('click', (event) => {
