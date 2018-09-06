@@ -5,7 +5,7 @@ date:       2018-09-05 19:11:02 -0400
 permalink:  using_turbolinks_with_rails_and_javascript
 ---
 
-Turbolinks is a feature included Rails 4 and 5. Its purpose is to speed up loading times of web pages. Per its [github documentation](https://github.com/turbolinks/turbolinks "Turbolinks Documentation"), Turbolinks gives "the performance benefits of a single-page application without the added complexity of a client-side JavaScript framework". For the web developer, there is no need for additional server side code nor rendering of either partials or JSON.
+Turbolinks is a feature included Rails 4 and 5. Its purpose is to speed up loading time of web pages. Per its [github documentation](https://github.com/turbolinks/turbolinks "Turbolinks Documentation"), Turbolinks gives "the performance benefits of a single-page application without the added complexity of a client-side JavaScript framework". For the web developer, there is no need for additional server-side code nor rendering of either partials or JSON.
 
 Turbolinks functions by taking advantage of HTML5's [history.pushState()](https://developer.mozilla.org/en-US/docs/Web/API/History_API#Adding_and_modifying_history_entries "MDN history.pushState()") method to manipulate the URL bar display in the browser, then making an XMLHttpRequest and rendering the HTML response. It's a win-win for everyone.
 
