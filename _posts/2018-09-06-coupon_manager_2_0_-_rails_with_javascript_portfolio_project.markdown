@@ -16,15 +16,15 @@ Version 2 of Coupon Manager leverages JavaScript and jQuery to manipulate the DO
 
 ```javascript
 // JSON response sent by Rails Controller
-// data = {
-//   id: 1,
-//   couponCode: "ABC123",
-//   item: "Water Bottles",
-//   store: {
-//      id: 3,
-//      name: "Target"
-//   } 
-// }
+//  data = {
+//      id: 1,
+//      couponCode: "ABC123",
+//      item: "Water Bottles",
+//      store: {
+//         id: 3,
+//         name: "Target"
+//      } 
+//  }
 
 class Coupon {
   constructor(data) {
