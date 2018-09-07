@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Coupon Manager 2.0 - Rails with JavaScript Portfolio Project"
-date:       2018-09-07 01:37:22 +0000
+date:       2018-09-06 21:37:22 -0400
 permalink:  coupon_manager_2_0_-_rails_with_javascript_portfolio_project
 ---
 
