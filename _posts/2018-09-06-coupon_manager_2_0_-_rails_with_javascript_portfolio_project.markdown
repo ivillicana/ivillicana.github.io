@@ -7,7 +7,7 @@ permalink:  coupon_manager_2_0_-_rails_with_javascript_portfolio_project
 
 This is a continuation of my pevious project: Coupon Manager. You can read about that project in my blog post [*Coupon Manager - Rails Portfolio Project*](http://isaacvillicana.com/coupon_manager).
 
-Coupon Manager is a web app that allows thrifty shopper to create, share, organize, and save coupons. It's built on the Ruby on Rails framework, taking advantage of ActiveRecord models, associations, routes/nested routes, and view helpers. The omniAuth gem is also included, allowing users to authenticate with a third-party provider, in this case, Facebook. User accounts can also be created within the application, using bCrypt to hash passwords in the database.
+Coupon Manager is a web app that allows thrifty shoppers to create, share, organize, and save coupons. It's built on the Ruby on Rails framework, taking advantage of ActiveRecord models, associations, routes/nested routes, and view helpers. The omniAuth gem is also included, allowing users to authenticate with a third-party provider, in this case, Facebook. User accounts can also be created within the application, using bCrypt to hash passwords in the database.
 
 However, this version of Coupon Manager has two new features: JavaScript/jQuery and Handlebars Templates.
 
