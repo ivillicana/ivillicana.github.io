@@ -19,7 +19,7 @@ const userElement = (
     <h2>Jack Nicholson</h2>
     <ul>
       <li>A Few Good Men</li>
-      <li>One Flew Over the Cuckoo's Nest</li>
+      <li>One Flew Over the Cuckoos Nest</li>
       <li>The Shining</li>
     </ul>
   </div>
