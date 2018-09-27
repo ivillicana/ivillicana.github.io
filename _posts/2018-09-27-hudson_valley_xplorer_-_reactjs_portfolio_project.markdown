@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Hudson Valley Xplorer - ReactJS Portfolio Project"
-date:       2018-09-27 11:42:46 +0000
+date:       2018-09-27 07:42:47 -0400
 permalink:  hudson_valley_xplorer_-_reactjs_portfolio_project
 ---
 
@@ -13,6 +13,7 @@ ReactJS, or simply React, is a JavaScript library that facilitates building user
 
 One great thing about React is its use of JavaScript XML (JSX). JSX is simply a syntax extension of JavaScript. It doesn't have to be used in React; vanilla JS will work just fine. However, JSX is beneficial because it describes how the UI should look like. Take the following example:
 ```javascript
+
 const userElement = (
   <div>
     <h2>Jack Nicholson</h2>
@@ -23,6 +24,7 @@ const userElement = (
     </ul>
   </div>
 )
+
 ```
 Looks just like HTML. Except it's not. It's JSX, which is then transpiled by Babel into JavaScript. Remember, React facilitates building the UI. So, why shouldn't the code we use to build our visual elements resemble the HTML that is rendered in a browser or application window?
 
