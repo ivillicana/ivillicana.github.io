@@ -6,7 +6,7 @@ permalink:  validations_in_rails_and_activerecord
 ---
 
 
-Databases are great! Actually, let's be more specific: databases with valid data are great. Databases with missing or invalid dataare not. It can be a pain in the neck trying to deal with invalid data. Validations allow us to ensure that only valid data is saved into our database. A very simple example would be dealing with users. In many cases, a user must have a name, an email, etc. And we don't want to save a user without those details. How can Rails help us?
+Databases are great! Actually, let's be more specific: databases with valid data are great. Databases with missing or invalid data are not. It can be a pain in the neck trying to deal with invalid data. Validations allow us to ensure that only valid data is saved into our database. A very simple example would be dealing with users. In many cases, a user must have a name, an email, etc. And we don't want to save a user without those details. How can Rails help us?
 ```ruby
 class User
   validates :name, presence: true
